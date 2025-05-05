@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { FitnessPlan, LoginResponse, User } from '../types';
 
-const API_URL = 'http://localhost:3001/api'; // Make sure this matches your backend port
+const API_URL = 'https://fitness-apis.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,
